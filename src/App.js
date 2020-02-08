@@ -5,6 +5,7 @@ import {ContextBar} from './components/ContextBar';
 import {Main} from './components/Main';
 import {ContactPanels} from './components/ContactPanels';
 import {Footer} from './components/Footer';
+import './App.css';
 
 function App() {
   return (
