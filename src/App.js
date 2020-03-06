@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {MapsBanner} from './MapsBanner';
-import {Header} from './Header';
-import {ContextBar} from './ContextBar';
-import {Main} from './Main';
-import {Footer} from './Footer';
+import {MapsBanner} from './components/MapsBanner';
+import {Header} from './components/Header';
+import {ContextBar} from './components/ContextBar';
+import {Main} from './components/Main';
+import {Footer} from './components/Footer';
 
 function App() {
   return (
