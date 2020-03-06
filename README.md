@@ -1,18 +1,20 @@
-# directories_spile_stylesheets
+# directories_spike_stylesheets
+
+This is the code relating to a [Spike](https://maps.tpondemand.com/entity/11205-spike-investigate-styled-components-library-1) to investigate the best way to incorporate stylesheets into the Directories project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setting up
+
+In the project directory, run: `npm start`
+
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits. You will also see any lint errors in the console.
+
+====
+
 ## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
