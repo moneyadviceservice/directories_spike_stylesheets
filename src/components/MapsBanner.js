@@ -21,7 +21,20 @@ const MapsBanner = ({className}) => (
 )
 
 const StyledMapsBanner = styled(MapsBanner)`
-  border: solid 1px red; 
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: #143960;
+
+  .l-maps_banner__content {
+    display: inline;
+    float: left;
+    width: 96.6666666667%;
+    margin-left: 1.6666666667%;
+    margin-right: 1.6666666667%;
+    height: 54px;
+    padding: 13px 0; 
+  }
 `; 
 
 export {StyledMapsBanner}
