@@ -1,3 +1,18 @@
 $responsive: true; 
 
-@import '~@bower_components/yeast/assets/all';
+@import 'node_modules/dough/assets/stylesheets/lib/_variables'; 
+@import 'node_modules/dough/assets/stylesheets/helpers/_inline_block'; 
+@import 'node_modules/dough/assets/stylesheets/helpers/_clearfix'; 
+@import 'node_modules/dough/assets/stylesheets/helpers/_unstyled_list'; 
+
+@import 'node_modules/yeast/assets/lib/_variables'; 
+@import 'node_modules/yeast/assets/lib/_mediaqueries'; 
+@import 'node_modules/yeast/assets/lib/_grid'; 
+@import 'node_modules/yeast/assets/lib/_variables'; 
+@import 'node_modules/yeast/assets/lib/_typography'; 
+@import 'node_modules/yeast/assets/lib/_links'; 
+@import 'node_modules/yeast/assets/layout/common/constrained';
+
+@import 'node_modules/yeast/assets/layout/common/footer';
+@import 'node_modules/yeast/assets/layout/common/footer_primary';
+@import 'node_modules/yeast/assets/layout/common/footer_secondary';
