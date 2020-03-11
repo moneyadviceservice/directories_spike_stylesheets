@@ -3,21 +3,19 @@ import {MapsBanner} from './components/MapsBanner';
 import {Header} from './components/Header';
 import {ContextBar} from './components/ContextBar';
 import {Main} from './components/Main';
+import {ContactPanels} from './components/ContactPanels';
 import {Footer} from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <MapsBanner/>
-
       <Header/>
-
       <ContextBar/>
-
       <Main/>
-
+      <ContactPanels/>
       <Footer/>
-    </div>
+    </React.Fragment>
   );
 }
 
