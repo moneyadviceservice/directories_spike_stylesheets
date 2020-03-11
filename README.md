@@ -2,15 +2,13 @@
 
 This is the code relating to a [Spike](https://maps.tpondemand.com/entity/11205-spike-investigate-styled-components-library-1) to investigate the best way to incorporate stylesheets into the Directories project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Setting up
 
-In the project directory, run: `npm start`
+In the project directory, 
+- run: `npm install`
+- run: `npm start`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits. You will also see any lint errors in the console.
+This runs the app in development mode.
 
 ====
 
