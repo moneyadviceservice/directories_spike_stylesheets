@@ -6,7 +6,10 @@ export class Header extends Component {
       <div class="l-constrained l-header__content">
         <div class="mas-logo">
           <a class="mas-logo__link" href="https://www.moneyadviceservice.org.uk/en">
-            MAS logo goes here
+            <img 
+              alt="Money Advice Service" 
+              class="mas-logo__img" 
+              src="https://masjumpprdstorage.blob.core.windows.net/responsive-assets/a/logo-sprite-en-f13de50d8bcd8dbbabfbe56b441a8633.png"/>
           </a>
         </div>
 
