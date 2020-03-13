@@ -30,3 +30,17 @@ $responsive: true;
 @import 'node_modules/yeast/assets/layout/common/footer_secondary';
 @import 'node_modules/yeast/assets/layout/common/header';
 @import 'node_modules/yeast/assets/layout/common/maps_banner';
+
+body {
+  @extend %font-body;
+}
+
+p {
+  @include body(16, 24);
+}
+
+ul,
+ol {
+  @include body(16, 24);
+  margin-top: $baseline-unit*4;
+}
