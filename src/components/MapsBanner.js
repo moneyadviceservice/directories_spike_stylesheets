@@ -2,18 +2,18 @@ import React from 'react';
 import styled from 'styled-components'; 
 
 const MapsBanner = ({className}) => (
-  <div class={className}>
-    <div class="l-constrained">
-      <div class="l-maps_banner__content">
-        <a href="https://moneyandpensionsservice.org.uk/" target="_blank" class="maps_banner__link">
-          <span class="maps_banner__mps-text">
+  <div className={className}>
+    <div className="l-constrained">
+      <div className="l-maps_banner__content">
+        <a href="https://moneyandpensionsservice.org.uk/" target="_blank" className="maps_banner__link">
+          <span className="maps_banner__mps-text">
             <span>The Money Advice</span>
             <span>Service is provided by</span>
           </span>
 
-          <span class="maps_banner__mps-logo"></span>
+          <span className="maps_banner__mps-logo"></span>
 
-          <span class="visually-hidden">opens in a new window</span>
+          <span className="visually-hidden">opens in a new window</span>
         </a>
       </div>
     </div>
