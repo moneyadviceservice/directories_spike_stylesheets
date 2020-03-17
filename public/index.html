@@ -1,29 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <title>
+      Retirement Adviser Directory | Find a regulated financial adviser
+    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Use the Retirement Adviser Directory to find FCA regulated financial advisers for help with retirement planning, inheritance tax, equity release, wills and probate, long-term care and pension transfers."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta
+      name="csrf-token"
+      content="wWcwt3lKdc/fz7M7RB+DG1kuJYqiLB29RMO30tFcDCsNwvy+TBwbBAjc46wOgdxu79LlVtSeotQmjyZGM4BFFQ=="
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link
+      href="https://directory.moneyadviceservice.org.uk/en"
+      hreflang="en-GB"
+      rel="alternate"
+    />
+    <link
+      href="https://directory.moneyadviceservice.org.uk/cy"
+      hreflang="cy-GB"
+      rel="alternate"
+    />
+    <link
+      href="https://directory.moneyadviceservice.org.uk/en"
+      rel="canonical"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/assets/dough/assets/stylesheets/font_files-e7ba9a618df1d11f1bb922126d1205a0e93057d27af65d84243263a55d33c0a2.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/assets/favicon-eb272b30e8430c86a1472c8d8550d69a8485ad2f8c2e7681149ca3b39079857d.ico"
+    />
+
+    <!--[if ( gte IE 7 ) & ( lte IE 8 ) & (!IEMobile)]>
+      <link
+        href="https://masjumpprdstorage.blob.core.windows.net/responsive-assets/a/dough/assets/stylesheets/font_files-dcbb90df70309af8f6ceeaff0db9a5af.css"
+        media="screen"
+        rel="stylesheet"
+      />
+      <link
+        href="https://masjumpprdstorage.blob.core.windows.net/responsive-assets/a/enhanced_fixed-1cca1e76da0e2d48be990410a432379f.css"
+        media="all"
+        rel="stylesheet"
+      />
+      <script src="https://masjumpprdstorage.blob.core.windows.net/responsive-assets/a/html5shiv/dist/html5shiv-ccc40f0f8bab80e89dfead2f99f6efdf.js"></script>
+      <script>
+        var responsiveStyle = false;
+      </script>
+    <![endif]-->
+
+    <!--[if ( !IE ) | ( gte IE 9 )]><!-->
+    <script>
+      var responsiveStyle = true;
+    </script>
+    <!--<![endif]-->
+
+    <script src="https://cdn.optimizely.com/js/6461312121.js"></script>
+
+    <script type="text/javascript">
+      var dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        "Responsive page": "Yes",
+        event: "Responsive page"
+      });
+
+      var require = {
+        config: {
+          globals: (function(w, d) {
+            var html, appendFile, bootstrap, fonts, supports;
+
+            appendFile = function(tag, src, content) {
+              var position = d.getElementsByTagName("script")[0],
+                file = d.createElement(tag);
+              if (tag === "script") {
+                file.async = true;
+                file.type = "text/javascript";
+              }
+              if (src) file.src = src;
+              if (content) file.innerHTML = content;
+              position.parentNode.insertBefore(file, position);
+            };
+
+            html = d.getElementsByTagName("html")[0];
+
+            bootstrap = {
+              env: "production",
+              timestamp: new Date().getTime(),
+              i18nLocale: "en",
+              googleApiCx: "011931388747222259444:qxgwfm5hlog"
+            };
+
+            fonts = {
+              url:
+                "https://masjumpprdstorage.blob.core.windows.net/responsive-assets/a/dough/assets/stylesheets/font_base64-28a0a91cf9910ceb5cc55a64841ae31a.css",
+              cacheName: "MAS.fonts",
+              loadClass: "wf-museosans-n4-active fontsLoaded",
+              localstorage: undefined,
+              loadWithJS: responsiveStyle
+            };
+
+            supports = (function() {
+              var S = {};
+
+              function supportTest(prop, context) {
+                try {
+                  return prop in context && context[prop] !== null;
+                } catch (e) {
+                  return false;
+                }
+              }
+
+              S.js =
+                supportTest("querySelector", d) &&
+                supportTest("localStorage", w) &&
+                supportTest("addEventListener", w)
+                  ? "advanced"
+                  : "basic";
+              S.touch =
+                supportTest("ontouchstart", w) ||
+                supportTest("onmsgesturechange", w);
+              S.localstorage = supportTest("localStorage", w);
+              S.svg = (function() {
+                return (
+                  !!d.createElementNS &&
+                  !!d.createElementNS("http://www.w3.org/2000/svg", "svg")
+                    .createSVGRect
+                );
+              })();
+              S.test = supportTest;
+
+              return S;
+            })();
+
+            if (
+              supports.localstorage &&
+              localStorage.getItem(fonts.cacheName) !== null
+            ) {
+              html.className = html.className += " " + fonts.loadClass;
+              appendFile("style", false, localStorage.getItem(fonts.cacheName));
+              fonts.localstorage = true;
+            }
+
+            html.className = html.className.replace(
+              "supports-js",
+              "supports-js js js-" + supports.js
+            );
+
+            setTimeout(function() {
+              var src =
+                d.location.protocol +
+                "//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/4438.js?" +
+                Math.floor(new Date().getTime() / 3600000);
+              appendFile("script", src);
+            }, 1);
+
+            var vp, ua, gs, sf;
+            vp = d.querySelector && d.querySelector('meta[name="viewport"]');
+            ua = navigator.userAgent;
+            sf = function() {
+              if (vp && /iPhone|iPad|iPod/.test(ua) && !/Opera Mini/.test(ua)) {
+                vp.content =
+                  "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+                d.addEventListener("gesturestart", gs, false);
+              }
+            };
+            gs = function() {
+              vp.content =
+                "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+            };
+
+            return {
+              bootstrap: bootstrap,
+              fonts: fonts,
+              supports: supports
+            };
+          })(window, document)
+        }
+      };
+    </script>
+
+    <!--[if ( gte IE 7 ) & ( lte IE 8 ) & (!IEMobile)]>
+      <link
+        rel="stylesheet"
+        media="all"
+        href="/assets/enhanced_fixed-2345a2ee75f1ce509fae0f8b2f3875ddefae50d712c6968b9c881527da5bf404.css"
+      />
+      <script>
+        var responsiveStyle = false;
+      </script>
+    <![endif]-->
+
+    <!--[if ( !IE ) | ( gte IE 9 )]><!-->
+    <link
+      rel="stylesheet"
+      media="only all"
+      href="/assets/enhanced_responsive-71706227acd2a89dd3b1ea221856f3e58f702efaea5974455008f53c2d1b66e6.css"
+    />
+    <script>
+      var responsiveStyle = true;
+    </script>
+    <!--<![endif]-->
+
+    <script src="/assets/modernizr/modernizr-8363db6bc9f1f5478fbc6907009d26e6294a1872b2efcf4841f9be484dfa16db.js"></script>
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <title>React App</title>
   </head>
   <body>

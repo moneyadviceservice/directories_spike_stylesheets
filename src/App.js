@@ -1,22 +1,23 @@
-import React, {Component} from 'react';
-import {MapsBanner} from './components/MapsBanner';
-import {Header} from './components/Header';
-import {ContextBar} from './components/ContextBar';
-import {Main} from './components/Main';
-import {Footer} from './components/Footer';
+import React, { Component } from "react";
+import { MapsBanner } from "./components/MapsBanner";
+import { Header } from "./components/Header";
+import { ContextBar } from "./components/ContextBar";
+import { Main } from "./components/Main";
+import { Footer } from "./components/Footer";
+import "./App.scss";
 
 function App() {
   return (
     <div>
-      <MapsBanner/>
+      <MapsBanner />
 
-      <Header/>
+      <Header />
 
-      <ContextBar/>
+      <ContextBar />
 
-      <Main/>
+      <Main />
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
